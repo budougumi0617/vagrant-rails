@@ -40,3 +40,6 @@ rails s
 1. Sync Folder(Sever - Local) : `/vagrant/app` - `app/`
 
 2. MySQL ROOT PASS : ``(nothing)
+
+## Appendix
+http://morizyun.github.io/blog/vagrant-centos-nginx-mysql-rbenv/
