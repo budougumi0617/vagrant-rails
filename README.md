@@ -10,7 +10,7 @@ _Description: Vagrantfile with CentOS 6.5/ruby 2.1.1/rails 4.1.0
 
 3. Download and install VirtualBox [https://www.virtualbox.org/](https://www.virtualbox.org/)
 
-4. `git clone https://github.com/morizyun/vagrant-rails`
+4. `git clone https://github.com/budougumi0617/vagrant-rails`
 
 5. `cd vagrant-rails`
 
