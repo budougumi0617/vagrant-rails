@@ -57,7 +57,7 @@ cat  /etc/sysconfig/iptables
 COMMIT
 ```
 
-**Browsing** [http://192.168.33.10/](http://192.168.33.10/)
+**Browsing** [http://192.168.33.10:3000/](http://192.168.33.10:3000/)
 
 ## Basic information
 
