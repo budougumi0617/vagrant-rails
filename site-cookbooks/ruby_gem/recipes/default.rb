@@ -1,4 +1,4 @@
-gems = %w(bundler rails sqlite3 therubyracer mysql2)
+gems = %w(bundler rails sqlite3 therubyracer)
 gems.each do |gem|
   gem_package gem do
     action :install

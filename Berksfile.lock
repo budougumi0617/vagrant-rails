@@ -1,16 +1,7 @@
 {
   "sources": {
-    "mysql": {
-      "locked_version": "4.1.2"
-    },
-    "database": {
-      "locked_version": "2.0.0"
-    },
     "base": {
       "path": "./site-cookbooks/base"
-    },
-    "mysql56": {
-      "path": "./site-cookbooks/mysql56"
     },
     "ruby_build": {
       "locked_version": "0.8.0"
@@ -22,51 +13,6 @@
     },
     "ruby_gem": {
       "path": "./site-cookbooks/ruby_gem"
-    },
-    "openssl": {
-      "locked_version": "1.1.0"
-    },
-    "build-essential": {
-      "locked_version": "1.4.4"
-    },
-    "homebrew": {
-      "locked_version": "1.5.4"
-    },
-    "windows": {
-      "locked_version": "1.30.0"
-    },
-    "chef_handler": {
-      "locked_version": "1.1.5"
-    },
-    "postgresql": {
-      "locked_version": "3.3.4"
-    },
-    "apt": {
-      "locked_version": "2.3.8"
-    },
-    "aws": {
-      "locked_version": "2.1.1"
-    },
-    "xfs": {
-      "locked_version": "1.1.0"
-    },
-    "bluepill": {
-      "locked_version": "2.3.1"
-    },
-    "rsyslog": {
-      "locked_version": "1.12.2"
-    },
-    "ohai": {
-      "locked_version": "1.1.12"
-    },
-    "runit": {
-      "locked_version": "1.5.10"
-    },
-    "yum": {
-      "locked_version": "3.1.6"
-    },
-    "yum-epel": {
-      "locked_version": "0.3.4"
     },
     "java": {
       "locked_version": "1.22.0"

@@ -52,14 +52,3 @@ bash 'update resolv.conf' do
   EOC
 end
 
-# remi repository導入
-remote_file "/tmp/#{node['nginx']['file_name']}" do
-  source "#{node['nginx']['remote_uri']}"
-  not_if { ::File.exists?("/tmp/#{node['nginx']['file_name']}") }
-end
-
-package node['nginx']['file_name'] do
-  action :install
-  provider Chef::Provider::Package::Rpm
-  source "/tmp/#{node['nginx']['file_name']}"
-end
